@@ -1,0 +1,1147 @@
+body{
+	background-color:#ddd;
+	-webkit-text-size-adjust:none;
+	margin:0;
+	padding:0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*background-image:url(../img/background_tile.gif);*/
+}
+img{border:0;}
+
+input[type=submit]{
+	background-color:#000;
+	border:solid 1px #ff0;
+	font-weight:bold;
+	color:#fff;
+	margin-top:10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	text-transform:uppercase;
+	width:200px;
+}
+input[type=reset]{
+	background-color:#000;
+	border:solid 1px #ff0;
+	font-weight:bold;
+	color:#fff;
+	margin-top:10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	text-transform:uppercase;
+	width:200px;
+}
+input[type=submit]:hover{
+	background-color:#ff0;
+	color:black;
+}
+.info_block{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:960px;
+	background-color:#FFF;
+	border:0 solid #fff;
+}
+
+.info_block_title{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#000;
+	margin-top:0px;
+	margin-left:20px;
+	margin-bottom:5px;
+	padding-top:10px;
+	text-transform:uppercase;
+}
+#lang_block{
+	margin-top:400px;
+}
+
+
+/*********************************************************/
+#slide_show_block{
+	height:300px;
+	background-color:transparent;
+	border-bottom:10px solid #ff0;
+	margin-top:0;
+}
+#slide_show{
+	position:relative;
+	left:0px;
+}
+#slide_show img { display: none; }
+
+#slide_show .caption {
+	position:absolute;
+	display:none;
+	width:auto;
+	height:50px;
+	top:250px;
+	left:0px;
+	background-color:transparent;
+}
+
+#slide_show .caption p{
+	display:block;
+	color:#fff;
+	padding: 10px 15px 10px 15px;
+	font-size:14px;
+	margin-top:10px;
+	background-color:transparent;
+	background-image:url(../../img/80%25transbg.png);
+	font-family:Georgia, "Times New Roman", Times, serif;
+
+	width:auto;
+}
+#stop_pause{
+	position:absolute;
+	bottom:5px;
+	right:255px;
+	width:48px;
+	height:48px;
+	background-color:transparent;
+	background-image:url(../../img/Pause-Disabled-icon.png);
+	opacity:0.5;
+	z-index:39;
+}
+#stop_pause:hover{
+	cursor:pointer;
+	opacity:1;
+}
+#statement{
+	position:absolute;
+	left:50%;
+	margin-left:240px;
+	top:0px;
+	height:300px;
+	width:220px;
+	background-color:#222;
+	padding-left:10px;
+	padding-right:10px;
+	background-image:url(../../img/background_tile.gif);
+}
+
+#statement p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size:13px;
+	line-height:22px;
+	color:#fff;
+}
+/************  this is the end of main slide show ************/
+
+
+#news_block{
+	margin-top:0px;
+	width:970px;
+	height:auto;
+	background-color:white;
+	border:solid 1px #aaa;
+	/*background-image:url(../img/video_block_background.png);
+	background-position:top;
+	background-repeat:repeat-x;*/
+	background-color:#fff;
+	padding-bottom:30px;
+}
+#news_block .info_block_title,
+#video_b .info_block_title,
+#partners_block .info_block_title{
+	color:#000;
+	margin-top:0px;
+	width:950px;
+	margin-left:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	border-bottom:solid 0px #aaa;
+	background-image:url(../img/partner_title_bg.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+
+.news_slide_block{
+	width:930px;
+	height:200px;
+	background-color:transparent;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;	
+}
+.news_slide_image{
+	float:left;
+	height:200px;
+	width:372px;
+	background-color:white;
+	padding:0px;
+}
+.news_slide_image img{
+	width:372px;
+	height:200px;
+	display:none;
+}
+.news_slide_text .caption h1,.news_slide_text .caption p{
+	display:block;
+	margin-left:20px;
+	margin-right:20px;
+}
+.news_slide_text .caption h1{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	color:#000;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.news_slide_text .caption{display:none;}
+.news_slide_text{
+	float:left;
+	height:100%;
+	width:55%;
+	padding-top:0px;
+	border-bottom:solid 0px #ccc;
+	margin-left:10px;
+	background-color:transparent;				/*CHANGE COLOR*/
+}
+.news_slide_text .caption p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom: 10px;
+	font-size:12px;
+	line-height:15px;
+	color:#666;
+}
+.other_highlights{
+	float:left;
+	height:100%;
+	width:20%;
+	background-color:transparent;				/*CHANGE COLOR*/
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-bottom: 0.5em;
+	font-size: 0.9em;
+	line-height:1.4em;
+	color:#666;
+}
+	
+#thumbnail_block{
+	height:70px;
+	width:930px;
+	background-color:transparent;
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:auto;
+}
+.thumbnail{
+	width:82px;
+	height:42px;
+	float:left;
+	background-color:transparent;
+	margin-left:0px;
+	margin-top:0px;
+	text-align:center;
+	padding:5px;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+#first_thumbnail{
+	margin-left:0px;
+	background-image:url(../img/thumbnail_bg_130.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+.thumbnail img{
+	width:80px;
+	height:45px;
+	margin-top:10px;
+	margin-bottom:0px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:0px;
+}
+.thumbnail p{
+	margin-top:5px;
+	color:#fff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:9px;
+	font-weight:normal;
+}
+.thumbnail #first_p{
+	color:#000;
+}
+.thumbnail p:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+/******** end of news & event block *********/
+
+#video_b{
+	background-color:#fff;
+	border:0px;
+	border:solid 0px #aaa;
+	/*background-image:url(../img/video_block_background.png);
+	background-position:top;
+	background-repeat:repeat-x;*/
+	padding-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#video_b #icon_table{
+	/*border-spacing:20px 10px;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	
+}
+
+#video_b #icon_table td img{
+	width:100px;
+	height:50px;
+	border:1px solid #aaa;
+	padding:0px;
+	background-color:white;
+	/*-moz-box-shadow: 2px 2px 5px #666;-webkit-box-shadow: 2px 2px 5px #666;box-shadow: 2px 2px 5px #666;*/
+}
+
+#video_b #icon_table td p{
+	margin-top:4px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+}
+#video_b #icon_table td{
+	width:100px;
+	height:auto;
+	vertical-align:top;
+	
+}
+#video_b #video_block_main_screen img{
+	border:1px solid #ccc;
+	padding:0px;
+	background-color:#fff;
+	width:400px;
+	height:225px;
+}
+
+/**************end of video block**********************/
+/******************** partners blocl *****************/
+
+#partners_block{
+	background-color:white;
+	height:auto;
+	padding-bottom:20px;
+	border:solid 0px #aaa;
+	margin-top:20px;
+}
+#partners_block table{
+	width:930px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	vertical-align:text-top;
+	
+	margin-top:20px;
+}
+#partners_block table .td_i{
+	width:10%;
+	vertical-align:top;
+}
+#partners_block table .td_i img{height:70px;}
+#partners_block table .td_t{
+	width:40%; 
+	height:120px;
+	vertical-align:top;
+	background-color:#e7e7e7;
+	color:#666;
+	padding:10px 10px 10px 10px;
+	line-height:18px;
+	
+}
+
+#general_english_block,
+#business_english_block,
+#exam_courses_block,
+#fees_block,
+#fees_full_time_table,
+#fees_part_time_table,
+#how_to_book_block,
+#irish_visa_block,
+#airport_transfer_block,
+#accomodation_block,
+#medical_insurance_block,
+#emergency_block,
+#holiday_block,
+#eid_block,
+#about_dublin_block,
+#dublin_weather_block,
+#on_arrival_block,
+#korean_school_block,
+#admin_page_block,
+#error_page_block,
+#event_block,
+#event_form_block,
+#confirmDelete_block,
+#tesol_block,
+#dublin_tour_block,
+#fringe_block,
+#tour_guide_opportunity_block,
+#comp_stat_block,
+#college_courses_block{
+	background-color:#fff;
+	padding-bottom:30px;
+	padding-top:10px;
+	border-top:0px solid #e7e7e7;
+}
+#general_english_block .info_block_title,
+#college_courses_block .info_block_title,
+#exam_courses_block .info_block_title,
+#fees_block .info_block_title,
+#fees_full_time_table .info_block_title,
+#fees_part_time_table .info_block_title,
+#how_to_book_block .info_block_title,
+#airport_transfer_block .info_block_title,
+#accomodation_block .info_block_title,
+#medical_insurance_block .info_block_title,
+#emergency_block .info_block_title,
+#holiday_block .info_block_title,
+#eid_block .info_block_title,
+#about_dublin_block .info_block_title,
+#dublin_weather_block .info_block_title,
+#on_arrival_block .info_block_title,
+#korean_school_block .info_block_title,
+#admin_page_block .info_block_title,
+#error_page_block .info_block_title,
+#event_form_block .info_block_tilte,
+#tesol_block .info_block_title,
+#irish_visa_block .info_block_title,
+#dublin_tour_block .info_block_title,
+#fringe_block .info_block_title,
+#tour_guide_opportunity_block .info_block_title,
+#business_english_block .info_block_title{
+	color:#000;
+}
+
+#staff_block{
+	background-color:#fff;
+	background-repeat:repeat-y;
+	padding-bottom:20px;
+	border:solid 0px #CCC;
+}
+#staff_block .info_block_title{
+	color:black;
+	border-bottom:solid 2px #CCC;
+	margin-right:20px;
+	padding-bottom:20px;
+	
+}
+#staff_block .info_table td,#staff_block .info_table{
+	background-color:transparent;
+}
+#staff_block .info_table{
+	border-spacing:20px 20px;
+	width:700px;
+	margin-left:135px;
+}
+#staff_block .info_table h1{
+	font-size:12px;
+	margin-top:2px;
+	background-color:#003;
+	color:#fff;
+	padding:3px 0px 3px 15px;
+}
+#staff_block .info_table .text_td{
+	padding:0px;
+}
+#staff_block .info_table .text_td p{
+	padding-left:15px;
+	font-size:12px;
+}
+#staff_block .info_table .img_td img{
+}
+#staff_block .info_table .img_td img, #staff_block .info_table .img_td{
+	height:160px;
+	width:200px;
+}
+
+/********************************************/
+
+#meet_the_students_block .info_table{
+	border-spacing:20px 20px;
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	background-color:#FFF;
+}
+#meet_the_students_block{
+	background-color:#fff;
+	border:0px solid #eee;
+	margin-top:0px;
+}
+#meet_the_students_block .info_table .person_image{
+	width:150px;
+	background-color:#fff;
+}
+#meet_the_students_block .info_table .student_text_td{
+	background-color:#fff;
+	font-size:12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:20px;
+	padding-bottom:30px;
+	background-image:url(../../img/student_bg.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+}
+#meet_the_students_block .info_table .text_td{
+	background-color:#e7e7e7;
+	border:1px solid #ccc;
+	padding-bottom:10px;
+}
+#meet_the_students_block .info_table .text_td:hover{
+	background-color:#fff;
+	color:#444;
+}
+
+#meet_the_students_block #meet_the_students_title{
+	font-size:28px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	line-height:40px;
+	width:700px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#666;
+	margin-bottom:0px;
+}
+
+
+A{text-decoration: none; color:#000;}
+A:link {text-decoration: none; color:#426DC9;}
+A:visited {text-decoration: none; color:#426DC9;}
+A:active {text-decoration: none;color:#426DC9;}
+A:hover {text-decoration:none;color:#ccc; cursor:pointer;}
+.fees_table{
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:2px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+}
+#about_dublin_slide_show_imgs img{display:none;}
+#about_dublin_slide_show_imgs{background-color:#FFF;}
+
+.fees_table th{
+	background-color:#900;
+	width:130px;
+	padding:5px 10px 5px 10px;
+}
+.fees_table td{
+	color:#fff;
+	padding:5px 0 5px 30px;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+.fees_table .tr_even td{background-color:#022952;}
+.fees_table .tr_odd td{background-color:#04427F;}
+.fees_table tr:hover td{
+	background-color:#Ff0;
+	color:black;
+}
+.info_table{
+	width:930px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	border-spacing:0px 0px;
+	background-color:#Fff;
+}
+.info_table, .info_table td, .info_table tr{
+	border:0px;
+	padding:0px;
+}
+.info_table td{
+	color:#666;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:13px;
+	line-height:16px;
+	background-color:#e7e7e7;
+	vertical-align:top;
+}
+.info_table td span{
+	font-weight:bold;
+}
+.info_table .text_td{}
+.info_table .text_td p{
+	padding:0px 20px 0px 20px;
+}
+/***********************************/
+
+#eid_gallery_block{
+	position:relative;
+	background-color:#fff;
+	height:600px;
+	width:100%;
+	background-image:url(../../img/gallery_bg.jpg);
+	background-position:bottom center;
+	background-repeat:repeat-x;
+}
+#gallery_logo{
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:0px;
+}
+#lamp{
+	position:absolute;
+	left:0px;
+	bottom:50px;
+}
+#floor_lamp{
+	position:absolute;
+	right:80px;
+	bottom:40px;
+}
+#gallery_forward, #gallery_backward{
+	position:absolute;
+	top: 150px;
+}
+#gallery_forward{ width:80px; height:150px;background-image:url(../../img/forward.jpg);right:10px;}
+#gallery_backward{ width:80px; height:150px;background-image:url(../../img/backward.jpg);left:10px;}
+#gallery_forward:hover{background-image:url(../../img/forward_hover.jpg); cursor:pointer;}
+#gallery_backward:hover{background-image:url(../../img/backward_hover.jpg); cursor:pointer;}
+
+.gallery_frame_bg{
+	position:absolute;
+	left:50%;
+	top:180px;
+	padding-bottom:5px;
+	background-color:transparent;
+	background-position:bottom center;
+	background-repeat:repeat-x;
+	background-image:url(../img/gallery_frame_shade.png);
+}
+.gallery_frame{
+	background-image:url(../img/gallery_frame_shade.png);
+	background-color:transparent;
+	border:10px solid black;
+	padding:7px 7px 7px 7px;
+	background-position:top center;
+	background-repeat:repeat-x;
+}
+
+
+
+#school_3{top:180px;margin-left:-340px;}
+#staff_gallery{top:180px;margin-left:-90px;}
+#school_2{top:180px;margin-left:120px;}
+
+
+#oleg{top:80px;margin-left:-300px;}
+#snow_fight{top:70px;margin-left:-125px;}
+#student_photo{top:80px;margin-left:100px;}
+#galway{top:220px;margin-left:100px;}
+#guiness_250{top:250px;margin-left:-125px;}
+
+
+#halloween_2011{top:50px;margin-left:-160px;}
+#halloween_2010{top:50px;margin-left:-300px;}
+#halloween_2009{top:200px;margin-left:-160px;}
+#halloween_2008{top:200px;margin-left:60px;}
+#patrick_2010{top:60px;margin-left:185px;}
+
+
+#eid_football{top:120px;margin-left:-305px;}
+#santa_gallery{top:100px;margin-left:120px;}
+#xmas_2008{top:100px;margin-left:-80px;}
+
+#lle{
+	position:absolute;
+	top:430px;
+	right:20px;
+}
+
+/************************************/
+.exams{	
+	height:auto;
+	padding:0 0 30px 0;
+	overflow:auto;
+	background-color:#fff;
+	border:0px solid #ccc;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.exams p{
+	font-size:12px;
+	padding:0 80px 0 60px;
+	margin-top:0;
+}
+.exams li{
+	font-size:12px;
+	padding:0 80px 0 0px;
+	margin-top:0;
+	margin-left:40px;
+}
+.exams table{
+	width:800px;
+	margin:10px auto 0 auto;
+}
+.exams table td{
+	vertical-align:top;
+	padding:20px 0 20px 0;
+	border-bottom:dotted 1px #ccc;
+}
+.exams h1{
+	font-size:20px;
+	margin-left:40px;
+}
+
+
+
+/*********************************************************************************************************/
+#test_block{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding:20px 0 30px 0;;
+	border-top:1px dotted #060;
+	border-bottom:1px dotted #060;
+}
+
+#test_block #left_sider, #test_block #right_sider{
+	width:480px;
+	padding-bottom:0px;
+	vertical-align:top;
+}
+#test_block #right_sider{
+	border-left:1px dotted #09F;
+}
+#test_block,#test_block #left_sider, #test_block #right_sider{
+	height:auto;
+}
+
+#test_block .icon_li{
+	display:block;
+	float:left;
+	text-decoration:none;
+	margin:0 0px 20px 35px;
+	border:1px solid #ccc;
+	padding:0px;
+	background-color:#fff;
+}
+#test_block .icon_li, #test_block .icon_li img{
+	width:105px;
+	height:55px;
+}
+#test_block .icon_li img:hover{
+	cursor:pointer;
+}
+#test_block .test_title{
+	float:left;
+	width:100%;
+	background-color:transparent;
+	margin:10px 0 0 35px;
+	
+}
+#test_block .test_title h1{
+	padding:0px;
+	color:#09c;
+	background-color:#fff;
+	font-size:18px;
+	width:250px;
+	margin-left:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+}
+
+
+#test_block #right_sider img{
+	width:200px;
+	
+	float:left;
+	padding:0 20px 5px 0;
+}
+#test_block #right_sider .news_frame h1{
+	color:#09c;
+	font-size:14px;
+	margin-top:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#test_block #right_sider .news_frame{
+	margin:0 20px 30px 30px;
+}
+#test_block #right_sider p,#test_block #right_sider li{
+	font-size:12px;
+	line-height:20px;
+	color:#666;
+}
+
+/*****************************************************news_event_page*********************/
+#news_event_page_block .info_block_title{
+	margin-top:20px;
+	padding-bottom:20px;
+	border-bottom:0px dotted #e7e7e7;
+}
+#news_event_page_block,
+#news_event_leftSider,
+#news_event_rightSider{
+	height:auto;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	vertical-align:top;
+}
+	
+#news_event_page_block .mini_news_block h1{
+	margin:0 0 10px 0;
+	font-size:16px;
+	color:#09c;
+	padding:0;
+}
+#news_event_page_block .mini_news_block p{
+	margin:0 0 10px 0;
+	font-size:12px;
+	color:#666
+}
+#news_event_page_block #news_event_leftSider{
+	width:55%;
+	border-right:1px dotted #e7e7e7;
+	padding-bottom:20px;
+}
+#news_event_page_block #news_event_rightSider{
+	width:44%;
+	padding-bottom:20px;
+}
+#news_event_page_block .mini_news_block{
+	padding:20px 20px 30px 20px;
+	width:450px;
+	float:left;
+}
+#news_event_page_block .mini_news_block img{
+	width:200px;
+	float:left;
+	padding:0 20px 16px 0px;
+}
+
+/*** news_screen ***/
+#news_event_page_block .news_screen{
+	margin:20px 20px 30px 20px;
+	border-bottom:0px dotted #e7e7e7;
+	padding-bottom:30px;
+}
+#news_event_page_block .news_screen p{
+	font-size:13px;
+	line-height:25px;
+	margin:20px 5px 0 5px;
+}
+#news_event_page_block .news_screen h1{
+	font-size:20px;
+}	
+#news_event_page_block .news_screen img{
+	width:200px;
+}
+/*************************** competition *************/
+#competition_block{
+	padding:30px 0px 30px 0px;
+	border:0px solid #ccc;
+}
+#competition_block td{
+	padding-top:10px;
+	background-color:#fff;
+	color:#000;	
+
+}
+#competition_block td h1{
+	font-size:24px;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+#competition_dec{
+	padding-top:70px;
+	width:400px;
+	height:250px;
+	font-size:12px;
+	text-align:center;
+	margin:0 auto 0px auto;
+	background-image:url(../img/competition_bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+fieldset{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	border:0;
+}
+label{
+	display:block;
+	width:50%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+}
+input[type=text]{
+	width:100%;;
+}
+select{
+	margin-bottom:20px;
+	width:200px;
+}
+#id_type{margin-bottom:30px;}
+input[type=submit],input[type=reset]{
+	margin-top:30px;
+	padding:5px;
+	text-transform:capitalize;
+	border:1px solid #ccc;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	background-color:#e7e7e7;
+	min-width:100px;
+	color:black;
+	margin-right:30px;
+	font-weight:100;
+}
+.form_error_message{
+	font-size:12px;
+	color:#F00;
+	margin-bottom:20px;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+	background-color:#000;
+	color:#fff;
+}
+#comp_stat_block{
+	font-size:12px;
+	text-align:left;
+}
+#comp_stat_block table{
+	width:950px;
+	margin:0 auto 0 auto;
+}
+/*********************** congratulation **************/
+#congratulations_block td h1{
+	font-size:24px;
+	margin-bottom:40px;
+	margin-top:40px;
+	text-align:center;
+}
+#congratulations_block td{
+	padding-top:10px;
+	background-color:#fff;
+	color:#000;	
+}
+#congratulations_block td p{
+	font-size:12px;
+	text-align:left;
+}
+/************************** competition statistics ******************/
+.admin_table{
+	width:95%;
+	margin:10px auto 10px auto;
+	font-size:12px;
+}
+.admin_table th{
+	text-align:left;
+	padding:3px;
+	background-color:#e1e1e1;
+}
+.admin_table td{
+	text-align:left;
+	padding:3px;
+	border-bottom:0px solid #ccc;
+	background-color:#fff;
+}
+.admin_table tr:hover td{
+	background-color:#f1f1f1;
+	cursor:pointer;
+}
+/******************************* marketing block **********************/
+#marketing_block{
+	padding:10px 0 20px 0;
+	border-top:0px solid #e7e7e7;
+}
+/********************** promotion block *******************************/
+#promotion_block
+{
+	position:relative;
+	margin:20px auto auto auto;
+	border-top:0px dotted #900;
+	padding-top:10px;
+	/*background-image:url(../img/promotion_bg.jpg);*/
+}
+#promotion_block h1, #tesol_promotion_blk h1{
+	margin:0;
+	padding:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:18px;
+	color:#09F;
+}
+#promotion_block p{
+	font-size:12px;
+	margin:5px auto 10px auto;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#666;
+}
+#promotion_block img{
+	padding-right:10px;
+}
+
+#promotion_block td{
+	text-align:left;
+	height:auto;
+	vertical-align:top;
+	padding:0px 15px 0px 15px;
+	width:30%;
+}
+.promotion_blk{
+	width:33%;
+}
+
+
+/***********************************************************/
+#tesol_promotion_blk p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+}
+#tesol_promotion_blk #tesol_promotion_text_td h1{
+	margin-top:0;
+	padding:0 0 10px 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-style:italic;
+	width:300px;
+	border-bottom:1px dotted #09F;
+}
+#tesol_promotion_text_td{
+	padding:0px 0px 0px 10px;
+}
+
+/****************************************/
+#dublin_video_block p{
+	color:#666;
+	font-size:12px;
+}
+#dublin_video_block h3{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:20px;
+}
+/**************************************/
+#spanish_special_offer_block{
+	width:960px;
+	height:auto;
+	border:0px solid #000;
+}
+
+#spanish_special_offer_block #email_info
+{
+	margin:20px auto 20px 20px;
+	font-size:14px;
+}
+
+
+.spanish_sub_blk
+{
+	width:250px;
+	height:300px;
+	float:left;
+	margin-left:20px;
+	font-size:12px;
+	border:1px dotted #09c;
+	padding:20px;
+	
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+.spanish_sub_blk h3
+{
+	font-size:18px;
+	padding:0;
+	margin:0;
+	color:#09c;
+}
+
+#home_slide_blk
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	border:0px solid #000;
+	margin-top:0px;
+	border-top:0px solid #09c;
+	border-bottom:0px solid #09c;
+}
+
+#summer_offer_headline
+{
+	position:absolute;
+	bottom:20px;
+	z-index:31;
+}
+.slide_block, #home_slide_blk
+{
+	height:400px;
+}
+.slide_block
+{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-position:center top;
+	background-repeat:no-repeat;
+	display:none;
+	z-index:30;
+}
+#coins_blk
+{
+	border:0px solid #000;
+	position:absolute;
+	left:50%;
+	bottom:20px;
+	z-index:51;
+	background-color:transparent;
+}
+.coin
+{
+	width:8px;
+	height:8px;
+	border:1px solid #fff;
+	margin-right:15px;
+	float:left;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.coin:last-child
+{
+	margin-right:0;
+}
+.coin:hover
+{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

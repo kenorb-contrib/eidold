@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bookonline_table {
+	margin:30px auto auto auto;
+	width:auto;
+}
+.bookonline_table h3{color:#09c;}
+.bookonline_table td
+{
+	vertical-align:top;
+	padding:5px;
+}
+.bookonline_table .light
+{
+	background-color:#eee;
+}
+.bookonline_table .dark
+{
+	background-color:#ddd;
+}
+

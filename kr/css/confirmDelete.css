@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+#confirmDelete_block{
+	text-align:center;
+	min-height:280px;
+}
+#confirmDelete_block h3{
+	margin-top:40px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FC0;
+	text-transform:capitalize;
+}
+#confirmDelete_block p{
+	display:block;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#FFF;
+	font-family::"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	line-height:20px;
+}
+#event_block .event_discription{
+	text-align:justify;
+	background-color:#fff;
+	color:#000;
+	-moz-box-shadow: 0px 0px 30px #000;-webkit-box-shadow: 0px 0px 30px #000;box-shadow: 0x 0px 30px #000;
+	-moz-border-radius:6px;-webkit-border-radius: 6px;border-radius: 6px;
+	padding:20px 50px 20px 50px;
+}
+.admin_control, .admin_control tr, .admin_control td{
+	border:0;
+	padding:0;
+}
+.admin_control{
+	margin:100px auto auto auto;
+	border-spacing:20px 0px;
+}

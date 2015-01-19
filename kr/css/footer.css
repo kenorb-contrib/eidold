@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer{
+	width:960px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	background-color:#222;
+	border-top:10px solid #FF0;
+	border-bottom:0px solid #ccc;
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+	color:#fff;
+}
+#footer #shieldIcon{
+	margin-left:60px;
+	margin-top:30px;
+}
+#footer #shieldIcon img{ border:0;}
+#footer #go_to_top{
+	position:absolute;
+	width:50px;
+	height:50px;
+	margin-left:850px;
+	margin-top:40px;
+	
+}
+#footer .footer_inner_frame{
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:60px;
+	margin-top:30px;
+}
+#footer .footer_mini_block{
+	
+	margin-left:0;
+	width:auto;
+	height:auto;
+	padding:7px;
+	border-bottom:1px dotted #960;
+}
+
+#footer .company_p{
+	color:#666;
+	line-height:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	margin:0;
+	padding:0;
+}

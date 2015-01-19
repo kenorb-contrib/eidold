@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal-overlay{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0px;
+	width:100%;
+	height:100%;
+	background-image:url(../img/70%25bg.png);
+	z-index:50;
+}
+
+.modal-window{
+	position:absolute;
+	top:200px;
+	/*bottom:150px;*/
+	left:50%;
+	width:500px;
+	height:300px;
+	margin-left:-250px;
+	border:2px solid #000;
+	background-color:transparent;
+	-moz-box-shadow:0 0 30px #000;-webkit-box-shadow:0 0 30px #000;box-shadow:0 0 30px #000;
+	/*-moz-border-radius:6px;-webkit-border-radius:6px;-border-radius:6px;*/
+	border-style:solid;
+	border-width:3px;
+	border-color:#fc0;
+	z-index:51;
+}
+.modal-close-btn{
+	position:absolute;
+	top:0;
+	right:4px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	color:#999;
+	font-size:16px;
+}
+.modal-close-btn:before{
+	position:relative;
+	top:-1px;
+	content:"Close";
+	text-transform:uppercase;
+	font-size:10px;
+}
+.modal-close-btn:hover{color:#000;}
+
+	

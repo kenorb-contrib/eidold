@@ -1,0 +1,126 @@
+
+#online_marketing_bg
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-image:url(../img/80%25transbg.png);
+	z-index:5000;
+}
+#online_marketing_info_blk
+{
+	position:relative;
+	width:40%;
+	margin-right:auto;
+	margin-left:auto;
+	height:auto;
+	padding:60px 30px 40px 30px;
+	background-color:#fff;
+	border:0px solid #999;
+	-moz-border-radius:7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+	
+	
+}
+#online_marketing_info_blk form
+{
+	margin-top:10px;
+	border-bottom:1px solid #333;
+	padding-bottom:20px;
+}
+#online_marketing_info_blk p
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+}
+#online_marketing_info_blk form label,#online_marketing_info_blk form input[type=text],#online_marketing_info_blk form textarea,#online_marketing_info_blk form input[type=submit]
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+}
+#online_marketing_info_blk form input[type=text],#online_marketing_info_blk form textarea
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	padding:7px;
+}
+#online_marketing_info_blk form input[type=text]
+{
+	width:50%;
+}
+#online_marketing_info_blk form input[type=submit]
+{
+	padding:10px 0 10px 0;
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius:3px;
+}
+#online_marketing_close
+{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#online_marketing_close:hover
+{
+	cursor:pointer;
+}
+#online_marketing_info_blk form textarea
+{
+	width:80%;
+}
+
+
+
+
+
+/********************************************************/
+
+#congrats_bg
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-image:url(../img/80%25transbg.png);
+	z-index:5000;
+}
+#congrats_info_blk
+{
+	position:relative;
+	width:40%;
+	margin-right:auto;
+	margin-left:auto;
+	height:auto;
+	padding:60px 30px 70px 30px;
+	background-color:#fff;
+	border:0px solid #999;
+	-moz-border-radius:7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+}
+#congrats_info_blk p
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+}
+#congrats_info_blk h3
+{
+	font-size:24px;
+}
+#congrats_close
+{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#congrats_close:hover
+{
+	cursor:pointer;
+}
+
+/*******************************************/

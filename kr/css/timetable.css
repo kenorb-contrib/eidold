@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+#tooltip_box{
+	border:0;
+	background-color:transparent;
+	width:350px;
+	height:auto;
+	display:none;
+	position:absolute;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	color:#fff;
+	padding:0px 20px 20px 11px;
+	background-image:url(../img/tooltip_arrow.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+#tooltip_p{
+	color:#fff;
+	padding:10px 20px 20px 20px;
+	margin:0;
+	background:#333;
+	width:350px;
+	height:auto;
+}
+
+#time_table_block{
+	margin-top:20px;
+	height:auto;
+	background-color:#fff;
+	border:0px solid #ccc;
+	padding-bottom:80px;
+}
+#time_table_block .info_block_title{
+	color:#000;
+}
+#dec_p{
+	width:700px;
+	margin:0 auto 15px auto;
+	color:#000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	text-align:justify;
+	line-height:20px;
+	background-color:transparent;
+}
+#dec_p span{
+	color:#000;
+	font-weight:bold;
+}
+#time_table_block table{
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:1px 1px;
+}
+#time_table_block #first_th{
+	background-color:#333;
+	color:#FFF;
+}
+
+#time_table_block .time{
+	background-color:#333;
+	color:#FFF;
+	font-weight:bold;
+}
+#time_table_block th{
+	text-align:left;
+	background-color:#Fff;
+	color:#000;
+	padding:3px 20px 3px 20px;
+	height:30px;
+	border:1px solid #ccc;
+}
+#time_table_block td{
+	text-align:center;
+	width:220px;
+	background-color:#f7f7f7;
+	color:#333;
+	font-weight:bold;
+	border:1px solid #ccc;
+}
+
+#time_table{
+	width:930px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding-top:20px;
+	border-top:solid 1px #ccc;
+}
+
+#time_table_block .special_th:hover,#time_table_block th:hover{
+	cursor:help;
+	background-color:#ff0;
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+#event_block{
+	text-align:center;
+	min-height:280px;
+	/*background-image:url(../img/70%25bg.png);*/
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+#event_block h2{
+	margin-top:40px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#000;
+	text-transform:capitalize;
+}
+#event_block #event_shade{
+	padding-bottom:7px;
+	background-image:url(../img/view_event_shade.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	margin-bottom:30px;
+}
+#event_block p{
+	display:block;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#333;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+#event_block #event_discription{
+	text-align:justify;
+	background-color:#e7e7e7;
+	color:#000;
+	border:1px solid #ccc;
+	/*-moz-box-shadow: 0px 0px 30px #000;-webkit-box-shadow: 0px 0px 30px #000;box-shadow: 0x 0px 30px #000;
+	-moz-border-radius:6px;-webkit-border-radius: 6px;border-radius: 6px;*/
+	padding:20px 50px 20px 50px;
+}
+#event_block #event_discription:hover{
+	background-color:#fff;
+	color:#333;
+}
+.admin_control, .admin_control tr, .admin_control td{
+	border:0;
+	padding:0;
+}
+.admin_control{
+	margin:100px auto auto auto;
+	border-spacing:20px 0px;
+}

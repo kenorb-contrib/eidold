@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,img,h3,h1
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#reg_block
+{
+	margin:0;
+	padding:0;
+	width:960px;
+	height:1000px;
+	border:0px solid #000;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:14px;
+	background-image:url(../img/reg_bg.png);
+	background-repeat:no-repeat;
+}
+#reg_form_container
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:220px;
+	border:0px solid #000;
+}
+#reg_title
+{
+	font-size:12px;
+	padding:10px 50px 10px 50px;
+	margin-bottom:30px;
+	margin-top:0px;
+	background-color:#000;
+	color:#FF0;
+	-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+}
+#reg_title span
+{
+	color:#F00;
+	font-weight:bold;
+}
+.form_error_message
+{
+	height:11px;
+	font-size:12px;
+	color:#F00;
+}
+#reg_block label
+{
+	color:#000;
+}
+#reg_block input[type=text],#reg_block input[type=password]
+
+{
+	border:0;
+	height:30px;
+	width:230px;
+	padding:0px;
+	border:1px solid #ccc;
+	/*-moz-box-shadow: 0px 0px 5px #666;-webkit-box-shadow: 0px 0px 5px #666;box-shadow: 0px 0px 5px #666;*/
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+}
+#reg_block input[type=submit]
+{
+	width:150px;
+	height:auto;
+	padding:5px;
+	background-color:#FF0;
+	color:#000;
+	margin-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	border:1px solid #CC0;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+}
+.reg_form_sub_block
+{
+	float:left;
+	border:0px solid #000;
+}
+#reg_form_left
+{
+	height:350px;
+	margin-left:50px;
+}
+#reg_form_right
+{
+	border:0px solid #060;
+	margin-left:40px;
+}

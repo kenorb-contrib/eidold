@@ -1,0 +1,640 @@
+@charset "utf-8";
+/* CSS Document */
+#price_blk
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	min-height:500px;
+	border:0px solid #ccc;
+	width:960px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#333;
+}
+
+#price_blk h3,#testimonial_blk h3
+{
+	color:#245dc1;
+	text-transform:capitalize;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	border-bottom:1px solid #ddd;
+	padding-top:30px;
+	padding-bottom:5px;
+}
+
+
+.diff_blk
+{
+	width:310px;
+	margin-left:15px;
+	float:left;
+	border:0px solid #ccc;
+}
+.diff_blk img
+{
+	border:1px solid #ddd;
+}
+.diff_blk p
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:13px;
+	line-height:20px;
+}
+#diff_blk_first_child
+{
+	margin-left:0;
+}
+
+
+
+
+
+
+#price_blk ul
+{
+	text-transform:capitalize;
+	font-size:10px;
+	margin-top:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.price_info_left,.part_time_price_info_left
+{
+	float:left;
+	width:150px;
+}
+
+
+.price_info_right
+{
+	float:left;
+	width:790px;
+	height:240px;
+	background-color:#eee;
+	padding:10px;
+}
+
+.price_duration_title, .part_time_price_duration_title
+{
+	color:#000;
+	margin-top:0px;
+	padding:10px 0px 10px 15px;
+	border-bottom:1px solid #ccc;
+	font-size:12px;
+}
+.price_duration_title:first-child, .part_time_price_duration_title:first-child
+{
+	margin-top:50px;
+}
+.price_duration_title:hover
+{
+	cursor:pointer;
+}
+#price_duration_title_highlighted
+{
+	background-color:#eee;;
+	color:#000;
+}
+#price_blk table
+{
+	border:0;
+	border-spacing:0 0;
+	width:100%;
+	color:#333;
+}
+.table_title
+{
+	font-size:12px;
+	padding:10px;
+	color:#245dc1;
+	font-weight:bold;
+}
+
+
+#price_blk table td,#price_blk table th
+{
+	padding:2px 5px 2px 5px;
+	border:0;
+	border-bottom:1px solid #ddd;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:9px;
+	text-align:center;
+}
+#price_blk table th
+{
+	background-color:#666;
+	color:#fff;
+}
+#price_blk table tr:hover td
+{
+	background-color:#ff0;
+}
+.price_table_not_show
+{
+	display:none;
+}
+
+#price_table_container
+{
+	position:relative;
+	border-top:0px solid #ddd;
+	border-bottom:0px solid #ddd;
+	width:960px;
+	height:350px;
+	margin-top:70px;
+}
+
+#part_time_tab
+{
+	left:210px;
+	z-index:0;
+}
+#full_time_tab
+{
+	z-index:30;
+}
+
+#full_time_block
+{
+	position:absolute;
+	width:100%;
+	border-top:1px solid #ddd;
+	padding-top:20px;
+	margin-top:0px;
+	top:0;
+	left:0;
+	height:260px;
+	z-index:20;
+}
+#part_time_block
+{
+	position:absolute;
+	width:100%;
+	border-top:1px solid #ddd;
+	padding-top:20px;
+	margin-top:0px;
+	top:0;
+	left:0;
+	height:260px;
+	display:none;
+	z-index:20;
+}
+
+.price_table_tab
+{
+	position:absolute;
+	width:200px;
+	height:20px;
+	padding:9px 0 9px 0;
+	background-color:#fff;
+	color:#333;
+	border:1px solid #ddd;
+	border-bottom:0;
+	top:-38px;
+	text-align:center;
+}
+.price_table_tab:hover
+{
+	cursor:pointer;
+}
+.price_table_tab h4
+{
+	color:#245dc1;
+	text-transform:capitalize;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+.part_time_price_duration_title:hover
+{
+	cursor:pointer;
+}
+.pay_now_form
+{
+	margin-left:150px;
+	margin-top:20px;
+}
+.pay_now_form input[type=text]
+{
+	width:450px;
+	height:30px;
+}
+.pay_now_form input[type=submit]
+{
+	height:auto;
+	width:450px;
+	margin-top:10px;
+	padding:10px 5px 10px 5px;
+	text-align:center;
+	background-color:#900;
+	color:#fff;
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	-moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+	border:0;
+}
+
+.pay_online_btn
+{
+	height:auto;
+	width:200px;
+	padding:10px 5px 10px 5px;
+	text-align:center;
+	background-color:#900;
+	color:#fff;
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	-moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+	border:0;	
+}
+#price_list_banner_button
+{
+	position:absolute;
+	top:240px;
+	background-color:#FFF;
+	color:#333;
+	left:40px;
+	width:160px;
+	font-size:10px;
+}
+.pay_online_btn:hover
+{
+	cursor:pointer;
+}
+
+
+/***********************************************/
+#price_banner
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	border:0px solid #ccc;
+}
+#price_banner h1
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform:none;
+	display:block;
+	position:absolute;
+	width:400px;
+	bottom:150px;
+	left:10px;
+	padding:7px 20px 7px 20px;
+	background-color:#C30;
+	color:#fff;
+	font-size:20px;
+}
+#price_banner p
+{
+	display:block;
+	width:300px;
+	position:absolute;
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	bottom:80px;
+	left:50px;
+	color:#fff;
+}
+.online_marketing_btn
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform:none;
+	position:absolute;
+	width:140px;
+	height:18px;
+	bottom:50px;
+	left:50px;
+	padding:10px 0px 10px 0px;
+	background-color:#fff;
+	color:#333;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	-moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+.online_marketing_btn:hover
+{
+	cursor:pointer;
+}
+
+#price_table_button
+{
+	top:300px;
+	left:150px;
+	border:1px solid #ddd;
+	background-color:#FF0;
+}
+#price_table_button:hover
+{
+	background-color:#333;
+	color:#fff;
+}
+
+/***********************************************/
+
+#testimonial_blk
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:0px solid #ccc;
+	padding-bottom:40px;
+	margin-top:0;
+}
+#testimonial_blk h3
+{
+}
+.test_sub_blk
+{
+	float:left;
+	border-top:1px solid #ddd;
+	width:33.33%;
+	padding-top:20px;
+}
+
+
+
+.testinonial_person
+{
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+
+
+
+
+.test_sub_blk_option_0
+{
+	float:left;
+	width:33.33%;
+}
+.test_sub_blk_option_0 p
+{
+	font-size:12px;
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-right:20px;
+	margin:0;
+	line-height:22px;
+}
+.test_sub_blk_option_0 img
+{
+	margin:0;
+	border:0;
+	padding:0 10px 1px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#test_sub_blk_first
+{
+	border:0;
+	padding:0;
+}
+.test_sub_blk p
+{
+	font-size:12px;
+	font-family:Helvetica, Arial, sans-serif;
+	padding-right:20px;
+	margin:0;
+	line-height:22px;
+}
+.test_sub_blk img
+{
+	margin:0;
+	border:0;
+	padding:0 10px 1px 0;
+}
+
+
+#testimonial_blk_1
+{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:0px solid #ccc;
+	padding-bottom:40px;
+	margin-top:0;
+}
+#testimonial_blk_1 .test_sub_blk
+{
+	width:100%;
+	margin-top:20px;
+}
+
+
+/***********************************************/
+#general_price_info
+{
+	margin-top:20px;
+	width:100%;
+	border-bottom:0px solid #ddd;
+	padding:0;
+}
+.gen_price_sub
+{
+	float:left;
+	border:0px solid red;
+}
+.gen_price_sub:first-child
+{
+	margin-right:20px;
+}
+#gen_price_sub_left
+{
+	width:390px;
+}
+#gen_price_sub_right
+{
+	width:530px;
+	margin-left:20px;
+	padding-top:0;
+}
+.gen_price_sub p
+{
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:13px;
+}
+.gen_price_sub .table_explaination
+{
+	font-size:8px;
+	line-height:20px;
+}
+#general_price_info h3
+{
+	font-size:18px;
+	padding:0;
+	margin:0;
+}
+.price_value
+{
+	display:inline-block;
+	width:150px;
+	background-color:#fff;
+	color:#000;
+	padding:4px 15px 4px 50px;
+	font-size:18px;
+}
+
+
+/***************************************************/
+
+#mail_box_bg
+{
+	position:absolute;
+	top:0;
+
+	width:100%;
+	height:100%;
+	
+	
+	z-index:5000;
+}
+
+#mail_box_form_blk
+{
+	position:fixed;
+	width:600px;
+	height:auto;
+	left:50%;
+	margin-left:-306px;
+	background-color:#fff;
+	border:12px solid #999;
+	-moz-box-shadow: 0px 0px 7px #666;-webkit-box-shadow: 0px 0px 7px #666;box-shadow: 0px 0px 7px #666;
+	-moz-border-radius:7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+}
+#mail_box_form_blk form
+{
+	padding:30px;
+}
+#mail_box_form_blk input[type=text]
+{
+	width:350px;
+	height:30px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0;
+	font-size:18px;
+}
+#mail_box_form_blk label
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+#mail_box_form_blk input[type=submit]
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:300px;
+	text-align:center;
+	padding:10px;
+	margin-top:0px;
+	margin-bottom:10px;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#030;
+	color:#fff;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+}
+#mail_box_form_blk textarea
+{
+	
+	font-family:"open_sanslight","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#mail_box_wrap
+{
+	width:598px;
+	height:inherit;
+	border:1px solid #666;
+	background-color:transparent;
+}
+#mail_box_statement
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:100%;
+	padding:5px 0px 5px 0px;
+	background-color:#030;
+	font-size:14px;
+	font-weight:bold;
+	vertical-align:middle;
+	color:#fff;
+	border:0;
+	margin:0;
+}
+#mail_box_statement span
+{
+	margin-left:10px;
+}
+#mail_box_close_wrap
+{
+	width:100%;
+	border-top:1px solid #666;
+	height:40px;
+	background-color:#ddd;
+}
+#mail_box_close
+{
+	width:60px;
+	height:25px;
+	border:1px solid #666;
+	margin-top:7px;
+	margin-left:528px;
+	text-align:center;
+	font-size:13px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	background-color:#030;
+	color:#fff;
+}
+#mail_box_close_align
+{
+	width:60px;
+	height:25px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#mail_box_close:hover
+{
+	cursor:pointer;
+}
+
+
+
+
+
+
+		

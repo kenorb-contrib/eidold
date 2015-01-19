@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+#login_block{
+	background-color:#fff;
+	padding-bottom:30px;
+	border:0px solid #ccc;
+	background-image:url(../img/lock-icon.jpg);
+	background-repeat:no-repeat;
+}
+#login_block{
+	height:300px;
+}
+
+#login_block .info_block_title{
+	margin:40px auto auto 100px;
+}
+
+#login_block form{
+	margin-left:100px;
+	margin-top:30px;
+}
+
+#login_block #lock{
+	border:0px;
+	padding:0px;
+	margin-top:-180px;
+	margin-left:650px;
+}
+
+#login_block input[type=text], #login_block input[type=password]{
+	display:block;
+	width:300px;
+	color:#333;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#login_block label{
+	font-size:12px;
+	color:#000;
+}
+#login_block input[type=text], #login_block input[type=password]{
+	margin-bottom:20px;
+	border:1px solid #ccc;
+}	
+
+
+

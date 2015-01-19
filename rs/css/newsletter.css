@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#newsletter_block{
+	overflow:auto;
+	padding-bottom:50px;
+}
+#newsletter_block .info_block_title{
+	text-transform:capitalize;
+}
+#newsletter_block li{
+	list-style:none;
+	float:left;
+	height:328;
+	width:250;
+	border:0;
+	padding:0;
+	margin:10px 10px 10px 10px;
+}
+#newsletter_block li input[type=submit]{
+	cursor:pointer;
+}
+#newsletter_block .newsletter_template{
+	background-image:url(../img/template_1.jpg);
+	height:328px;
+	width:250px;
+	border:0;
+	padding:0;
+}

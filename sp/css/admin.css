@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#admin_page_block{
+	background-color:#fff;
+	border:0px solid #ccc;
+	
+	overflow:auto;
+}
+#admin_page_block .admin_sub_block{
+	margin:30px 0 0 60px;
+	width:auto;
+	float:left;
+}
+
+#admin_page_block .admin_title{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	margin:0 0 10px 0;
+}
+#marketing_block form ul li{
+	list-style:none;
+	float:left;
+	margin:0 30px 0 0;
+	vertical-align:bottom;
+}
+#marketing_block form ul li select{
+	float:left;
+	width:150px;
+}
+#marketing_block form ul li label{
+	float:left;
+	width:auto;
+	margin-right:10px;
+}
+#marketing_block form ul li input[type=submit]{
+	width:auto;
+	margin:0;
+	padding:2px;
+}

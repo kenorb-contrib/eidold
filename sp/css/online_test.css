@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#test_block{
+	background-color:#fff;
+	color:#333;
+}
+#test_block h1{
+	font-size:16px;
+}
+#test_block .info_table {
+	background-color:#fff;
+	width:600px;
+	padding:50px 0 50px 0;
+	border:0px solid #ccc;
+}
+#test_block .info_table td{
+	background-color:#fff;
+	color:#333;
+}
+#test_block #test_dec{
+}
+#test_block input[type=text]{
+	margin:0px 0px 0px 0px;
+	width:100px;
+}
+#test_block input.person_detail{
+	width:300px;
+}
+
+#test_block form{
+	padding:0;
+	margin:0;
+}
+#test_block ol{
+	padding:0;
+}
+#test_block ol li{
+	margin-top:20px;
+}
